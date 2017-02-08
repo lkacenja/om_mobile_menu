@@ -1,0 +1,12 @@
+mobile-menu:
+  version: 1.x
+  js:
+    theme/js/dist/bundle.js: {}
+  css:
+    theme:
+      theme/css/jquery.mmenu.css: {}
+      theme/css/menu.css: {}
+  dependencies:
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery
