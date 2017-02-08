@@ -5,7 +5,6 @@ import mmenu from 'jquery.mmenu';
 const MOUNT_ELEMENT = '#block-mobilemenu';
 
 const init = function() {
-  console.log('bang');
   var $block = $(MOUNT_ELEMENT),
     $trigger = $block.find('#mobile-menu-trigger'),
     $menu = $block.find('#mobile-menu-list').detach(),

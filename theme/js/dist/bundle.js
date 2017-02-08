@@ -59,7 +59,6 @@
 	var MOUNT_ELEMENT = '#block-mobilemenu';
 
 	var init = function init() {
-	  console.log('bang');
 	  var $block = (0, _jquery2.default)(MOUNT_ELEMENT),
 	      $trigger = $block.find('#mobile-menu-trigger'),
 	      $menu = $block.find('#mobile-menu-list').detach(),

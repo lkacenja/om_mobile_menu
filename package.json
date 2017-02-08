@@ -1,5 +1,5 @@
 {
-  "name": "Open Media Mobile Menu",
+  "name": "om_mobile_menu",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,6 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jquery.mmenu": "^5.7.8"
+    "jquery.mmenu": "^5.7.8",
+    "babel-core": "^6.3.17",
+    "babel-loader": "^6.2.0",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.3.13"
   }
 }
