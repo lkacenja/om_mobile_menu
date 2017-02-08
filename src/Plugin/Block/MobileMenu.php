@@ -43,7 +43,7 @@ class MobileMenu extends BlockBase implements ContainerFactoryPluginInterface {
          '#value' => 'Mobile Menu',
          '#attributes' => array(
            'href' => '#mobile-menu',
-           '#id' => 'mobile-menu-trigger',
+           'id' => 'mobile-menu-trigger',
          )
        ),
        'menu' => $build,
